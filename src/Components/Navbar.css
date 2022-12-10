@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+.main-nav ul {
+  width: 100wh;
+  height: 50px;
+  display: flex;
+  background-color: rgb(171, 202, 219);
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.main-nav ul li {
+  list-style: none;
+  color: black;
+  font-weight: 200;
+  font-family: cursive, sans-serif;
+}
+.main-nav ul a li:hover {
+  color: rgb(221, 121, 40);
+  transition: all 0.3s ease-out;
+}
+@media only screen and (max-width: 600px) {
+  .main-nav ul {
+    width: 150px;
+    height: 150px;
+    display: block;
+    background: none;
+    margin-top: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  body {
+    background-color: aliceblue;
+  }
+}
